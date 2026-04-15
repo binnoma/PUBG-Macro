@@ -1,18 +1,30 @@
 @echo off
 title Photon PUBG Macro - Designed by binnoma
+mode con: cols=80 lines=25
 color 0b
-echo ======================================================
-echo           Photon PUBG Auto Macro (Bypassed)
-echo           Designed and Developed by: binnoma
-echo ======================================================
+
 echo.
-echo [1] Ensure Logitech G HUB is installed and running.
-echo [2] Import the Lua scripts from the 'Scripts' folder into G HUB.
-echo [3] Set your in-game Fire button to 'F8' for rapid fire features.
+echo  ######################################################
+echo  #                                                    #
+echo  #         Photon PUBG Auto Macro (Bypassed)          #
+echo  #         Designed and Developed by: binnoma         #
+echo  #                                                    #
+echo  ######################################################
 echo.
-echo Launching Logitech G HUB...
-start "" "C:\Program Files\LGHUB\system_settings\lghub_system_settings.exe" --launch-g-hub
+echo  [!] Requirements:
+echo  1. Logitech G HUB (Official)
+echo  2. Game Fire Button set to F8
 echo.
-echo Script is ready to use. This window will close in 10 seconds.
-timeout /t 10 > nul
+echo  [+] How to use:
+echo  1. Copy code from 'Scripts' folder.
+echo  2. Paste in G HUB LUA Scripting section.
+echo  3. Enjoy the recoil control!
+echo.
+echo  [~] Launching Logitech G HUB...
+start "" "C:\Program Files\LGHUB\lghub.exe"
+echo.
+echo  This window will persist for 15 seconds for you to read.
+echo  Join our community or follow for updates!
+echo.
+timeout /t 15 > nul
 exit
