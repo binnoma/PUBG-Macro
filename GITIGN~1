@@ -1,0 +1,11 @@
+*.exe
+*.dll
+*.jpg
+*.mp4
+*.zip
+*.rar
+*.nip
+key.txt
+.log
+_cache_*
+nc/
